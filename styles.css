@@ -1,1 +1,17 @@
 /*  your css code here. If applicable */
+
+.container{
+	display:grid;
+	height:350px;
+	width:650px;
+	grid-template-columns:repeat(40,1fr);
+	grid-template-rows:repeat(20,1fr);
+	background-color:black;
+	gap:4px;
+	padding:15px 10px;
+	
+}
+
+.square{
+	background-color:rgb(29,29,29);
+}
